@@ -2,7 +2,7 @@
 
 Repository for hosting some of my 3D-Models for model-viewer.
 
-[![.](posters/FCBM.png)](./FCBM.html)
-[![.](posters/FCE3DV6.png)](./FCE3DV6.html)
-[![.](posters/FCBIQUH2.png)](./FCBIQUH2.html)
-[![.](posters/FCMSWISS.png)](./FCMSWISS.html)
+[![.](posters/FCBM.png)](https://technik-gegg.github.io/3D-Viewer/FCBM.html)
+[![.](posters/FCE3DV6.png)](https://technik-gegg.github.io/3D-Viewer/FCE3DV6.html)
+[![.](posters/FCBIQUH2.png)](https://technik-gegg.github.io/3D-Viewer/FCBIQUH2.html)
+[![.](posters/FCMSWISS.png)](https://technik-gegg.github.io/3D-Viewer/FCMSWISS.html)
