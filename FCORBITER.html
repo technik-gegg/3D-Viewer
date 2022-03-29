@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html  lang="en" class="js-focus-visible" data-js-focus-visible="">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="3D Model">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <link type="text/css" href="./css/model-viewer.css" rel="stylesheet"
+    </head>
+    <body>
+        <model-viewer 
+            bounds="tight" 
+            auto-rotate
+            camera-controls
+            shadow-intensity="1"
+            oncontextmenu="return false;" 
+            src="./models/FCORBITER.glb"
+            poster="./posters/FCORBITER.png" 
+            alt="Filament-Cutter for Orbiter 1.5 on Ender-3">
+        </model-viewer>
+        <script src="./script/pan-model.js"></script>
+    </body>
+</html>
