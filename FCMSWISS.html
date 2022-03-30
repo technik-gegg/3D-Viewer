@@ -16,7 +16,10 @@
             oncontextmenu="return false;" 
             src="./models/FCMSWISS.glb"
             poster="./posters/FCMSWISS.png" 
-            alt="Filament-Cutter for MicroSwiss DDE">
+            alt="Filament-Cutter for MicroSwiss DDE"
+            reveal="interaction">
+            <div id="lazy-load-poster" slot="poster" style="background-image: url(./posters/FCMSWISS.png);"></div>
+            <div id="button-load" slot="poster">Load 3D Model</div>
         </model-viewer>
         <script src="./script/pan-model.js"></script>
     </body>
