@@ -1,6 +1,6 @@
 # 3D-Viewer
 
-Repository for hosting some of my 3D-Models for model-viewer.
+Repository for hosting some of my 3D-Models for model-viewer. Click on the preview images to open a model in model-viewer.
 
 | Model | Description |
 |-------|-------------|
@@ -14,3 +14,4 @@ Repository for hosting some of my 3D-Models for model-viewer.
 |[![.](posters/V6S.png)](https://technik-gegg.github.io/3D-Viewer/V6S.html)|*SMuFF V6S Linear Stepper Mount*|
 |[![.](posters/V6SNEMA8.png)](https://technik-gegg.github.io/3D-Viewer/V6SNEMA8.html)|*SMuFF V6S Linear Stepper Mount using NEMA8*|
 |[![.](posters/FESPL.png)](https://technik-gegg.github.io/3D-Viewer/FESPL.html)|*SMuFF V6 Splitter Option Feeder Endstops*|
+|[![.](posters/SFB2.png)](https://technik-gegg.github.io/3D-Viewer/SFB2.html)|*Smart Filament Buffer (V2)*|
