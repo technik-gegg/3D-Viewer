@@ -54,3 +54,41 @@ model-viewer {
     transform: translate3d(-50%, -50%, 0);
     z-index: 100;
   }
+
+.HotspotAnnotation {
+    background: rgb(233, 30, 99);
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px;
+    color: rgba(247, 244, 244, 0.8);
+    display: block;
+    font-family: Futura, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    left: calc(100% + 1em);
+    max-width: 130px;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 50%;
+    width: max-content;
+}
+.Hotspot > * {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+.Hotspot {
+    background: rgb(255, 255, 255);
+    border-radius: 32px;
+    border: 0px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 24px;
+    padding: 8px;
+    position: relative;
+    transition: opacity 0.3s ease 0s;
+    width: 24px;
+}
+.annotation-wrapper ::slotted(*) {
+    pointer-events: initial;
+}
