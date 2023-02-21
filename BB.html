@@ -9,19 +9,48 @@
     </head>
     <body>
         <model-viewer 
-            bounds="tight" 
-            camera-controls
-            shadow-intensity="1"
-            oncontextmenu="return false;" 
-            src="./models/BB.glb"
-            poster="./posters/BB.png" 
-            alt="SMuFF Backbone Board"
-            environment-image="" 
-            exposure="4"
-            reveal="auto">
+                src="./models/BB.glb" 
+                poster="./posters/BB.png" 
+                ar 
+                ar-modes="webxr scene-viewer quick-look" 
+                camera-controls 
+                alt="SMuFF Backbone Board"
+                shadow-intensity="1.8" 
+                min-camera-orbit="-360deg 0deg auto" 
+                max-camera-orbit="180deg 180deg auto" 
+                exposure="2" 
+                camera-orbit="127deg 3deg 0.2317m" 
+                field-of-view="30deg" 
+                shadow-softness="1"
+                reveal="auto">
+            <button class="Hotspot" slot="hotspot-4" data-surface="30 3 170 38 114 0.534 0.371 0.095" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Buck converter (SY8205 or MP1584)</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-6" data-surface="106 24 3 17 18 0.480 0.200 0.320" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">VIN (9..24V)</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-7" data-surface="2 4 96 97 98 0.287 0.218 0.495" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Up to 8 Servos</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-10" data-surface="97 14 3 4 5 0.274 0.533 0.193" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">I2C Display (optional)</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-11" data-surface="1 15 309 310 311 0.083 0.630 0.287" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">I2C/Serial 3 Adapter (break-away)</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-12" data-surface="108 5 21 22 23 0.358 0.602 0.039" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">I2C In (from Controller)</div>
+            </button>
+                <button class="Hotspot" slot="hotspot-13" data-surface="120 9 0 1 2 0.441 0.037 0.522" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Wemos D1 mini (optional)</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
             <div id="lazy-load-poster" slot="poster" style="background-image: url(./posters/BB.png);"></div>
             <div id="button-load" slot="poster">Load 3D Model</div>
         </model-viewer>
+        
         <script src="./script/pan-model.js"></script>
     </body>
 </html>
