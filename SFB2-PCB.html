@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  lang="en" class="js-focus-visible" data-js-focus-visible="">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="3D Model">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <link type="text/css" href="./css/model-viewer.css" rel="stylesheet" />
+    </head>
+    <body>
+        <model-viewer 
+            src="./models/SFB2-PCB.glb"
+            poster="./posters/SFB2-PCB.png" 
+            ar 
+            ar-modes="webxr scene-viewer quick-look" 
+            camera-controls 
+            shadow-intensity="1.8" 
+            camera-orbit="0deg 22deg 148m" 
+            field-of-view="30deg" 
+            exposure="2"
+            reveal="auto"> 
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <div id="lazy-load-poster" slot="poster" style="background-image: url(./posters/SFB2-PCB.png);"></div>
+            <div id="button-load" slot="poster">Loading 3D Model...</div>
+        </model-viewer>
+        
+        <script src="./script/pan-model.js"></script>
+    </body>
+</html>
