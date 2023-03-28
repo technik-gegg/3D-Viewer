@@ -16,3 +16,4 @@ Repository for hosting some of my 3D-Models for model-viewer. Click on the previ
 |[![.](posters/FESPL.png)](https://technik-gegg.github.io/3D-Viewer/FESPL.html)|*SMuFF V6 Splitter Option Feeder Endstops*|
 |[![.](posters/SFB2.png)](https://technik-gegg.github.io/3D-Viewer/SFB2.html)|*Smart Filament Buffer (V2)*|
 |[![.](posters/BB.png)](https://technik-gegg.github.io/3D-Viewer/BB.html)|*SMuFF Backbone Board*|
+|[![.](posters/CONNECTOR.png)](https://technik-gegg.github.io/3D-Viewer/CONNECTOR.html)|*SMuFF Connector Board*|

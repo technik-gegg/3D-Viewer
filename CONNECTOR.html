@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html  lang="en" class="js-focus-visible" data-js-focus-visible="">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="3D Model">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <link type="text/css" href="./css/model-viewer.css" rel="stylesheet" />
+    </head>
+    <body>
+        <model-viewer 
+            src="./models/CONNECTOR.glb" 
+            poster="./posters/CONNECTOR.png" 
+            ar 
+            ar-modes="webxr scene-viewer quick-look" 
+            camera-controls 
+            alt="SMuFF Connector Board"
+            shadow-intensity="1.8" 
+            environment-image="legacy" 
+            skybox-image="legacy"
+            shadow-softness="1"
+            exposure="2"
+            reveal="auto">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <div id="lazy-load-poster" slot="poster" style="background-image: url(./posters/CONNECTOR.png);"></div>
+            <div id="button-load" slot="poster">Loading 3D Model...</div>
+        </model-viewer>
+        
+        <script src="./script/pan-model.js"></script>
+    </body>
+</html>
